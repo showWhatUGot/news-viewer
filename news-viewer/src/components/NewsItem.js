@@ -5,6 +5,7 @@ const NewsItemBlock = styled.div`
   display: flex;
   .thumbnail {
     margin-right: 1rem;
+    margin-top: 20px;
     img {
       display: block;
       width: 160px;

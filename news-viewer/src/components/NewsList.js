@@ -3,7 +3,7 @@ import NewsItem from './NewsItem';
 
 import React from 'react';
 
-const NewListBlock = styled.div`
+const NewsListBlock = styled.div`
   box-sizing: border-box;
   padding-bottom: 3rem;
   width: 768px;
@@ -25,7 +25,7 @@ const sampleArticle = {
 
 const NewsList = () => {
   return (
-    <NewListBlock>
+    <NewsListBlock>
       <NewsItem article={sampleArticle} />
       <NewsItem article={sampleArticle} />
       <NewsItem article={sampleArticle} />
@@ -33,7 +33,7 @@ const NewsList = () => {
       <NewsItem article={sampleArticle} />
       <NewsItem article={sampleArticle} />
       <NewsItem article={sampleArticle} />
-    </NewListBlock>
+    </NewsListBlock>
   );
 };
 
